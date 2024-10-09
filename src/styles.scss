@@ -15,8 +15,9 @@ body {
         justify-content: center;
         .wrapper {
             width: 69%;
-            background-color: rgba(0, 0, 0, 0.8); 
+            background-color: rgba(0, 0, 0, 0.6); 
             padding: 1vw 0;
+            border-radius: 2vw;
             .chat {
                 display: flex;
                 align-items: center;
