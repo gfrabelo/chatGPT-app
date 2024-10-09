@@ -3,9 +3,68 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    background-color: lightblue;
+    background: url(./assets/ai-bg.png) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .wrapper {
+            width: 69%;
+            background-color: rgba(0, 0, 0, 0.8); 
+            padding: 1vw 0;
+            .chat {
+                display: flex;
+                align-items: center;
+                .profile {
+                    margin: 0 1vw;
+                }
+            }           
+        }    
+        .wrapper.ai {
+            background-color: rgba(51, 51, 51, 0.8);
+        }
+    }
+    
+    .app {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        form {
+            width: 69%;
+            position: fixed;
+            bottom: 0;
+            display: flex;
+            margin: 2vw 0;
+            input {
+                width: 100%;
+                background-color: rgba(51, 51, 51, 0.8);
+                border: none;
+                padding: 13px 22px;
+                color: white;
+            }
+            input:focus,
+            input:valid {
+                border: none;
+            }
+            button {
+                background-image: url(./assets/sent-blue.png);
+                background-repeat: no-repeat;
+                background-color: rgba(51, 51, 51, 0.8);
+                border: none;
+                width: 2.5vw;
+                height: 2.5vw;
+                background-size: contain;
+                font-size: 0;
+                cursor: pointer;
+            }
+        }
+    }
+    
 }
 
-.chat {
-    background-color: rgba(0,0,0,.2);
-}
