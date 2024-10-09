@@ -100,7 +100,7 @@ export class AppComponent {
     this.loader(messageDiv);
 
     // fetch the data from serve
-    const response = await fetch("", {
+    const response = await fetch("http://localhost:5000/", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
