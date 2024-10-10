@@ -51,15 +51,15 @@ body {
             }
             input:focus,
             input:valid {
-                border: none;
+                border: 3 px solid red;
             }
             button {
                 background-image: url(./assets/sent-blue.png);
                 background-repeat: no-repeat;
                 background-color: rgba(51, 51, 51, 0.8);
                 border: none;
-                width: 2.5vw;
-                height: 2.5vw;
+                width: 45px;
+                height: 45px;
                 background-size: contain;
                 font-size: 0;
                 cursor: pointer;
