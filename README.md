@@ -1,27 +1,69 @@
-# ChatGPTApp
+# ChatGPT Clone com Angular e OpenAI API
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+Este projeto é uma réplica simples do ChatGPT, utilizando **Angular 17** e a **API da OpenAI**. Ele serve como estudo para integração de APIs de IA em uma aplicação web usando Angular.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Envio de perguntas e exibição das respostas da IA.
+- Animação de "IA pensando" com pontos suspensos.
+- Texto exibido dinamicamente, letra por letra.
+- Avatares personalizados para o usuário e o bot.
 
-## Code scaffolding
+## Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Node.js](https://nodejs.org/) (v14+)
+- [Angular CLI](https://angular.io/cli)
+- Chave da API da [OpenAI](https://beta.openai.com/signup/)
 
-## Build
+## Instalação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone o repositório:
 
-## Running unit tests
+    ```bash
+    git clone https://github.com/seu-usuario/chatgpt-angular-clone.git
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Acesse o diretório do projeto:
 
-## Running end-to-end tests
+    ```bash
+    cd chatgpt-angular-clone
+    ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Instale as dependências:
 
-## Further help
+    ```bash
+    npm install
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. Adicione sua chave da OpenAI em um arquivo `.env`:
+
+    ```bash
+    OPENAI_API_KEY=sua-chave-aqui
+    ```
+
+5. Inicie o servidor:
+
+    ```bash
+    ng serve
+    ```
+
+    Acesse a aplicação em `http://localhost:4200`.
+
+## Uso
+
+- Envie perguntas pelo campo de input e receba respostas da IA em tempo real.
+
+## Tecnologias
+
+- **Angular 17**
+- **TypeScript**
+- **SCSS**
+- **OpenAI API**
+
+## Contribuições
+
+Contribuições são bem-vindas! Abra uma issue ou envie um pull request com melhorias.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT.
