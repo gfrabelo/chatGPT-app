@@ -14,8 +14,8 @@ export class AppComponent {
   bot = './assets/bot.png';
   user = './assets/user.png';
 
-  form: any; // Referência ao formulário HTML
-  container: any; // Referência ao contêiner onde as mensagens serão exibidas
+  form: any;
+  container: any;
 
   constructor(private elementref: ElementRef) {
     // O ElementRef é utilizado para acessar elementos do DOM nativo
@@ -133,7 +133,7 @@ export class AppComponent {
       // Em caso de erro, exibe a mensagem de erro no chat
       const err = await response.text();
       if (messageDiv != null) {
-        messageDiv.innerHTML = 'algo deu ruim'; // Exibe uma mensagem de erro
+        messageDiv.innerHTML = 'Ainda não funciona :('; // Exibe uma mensagem de erro
         alert(err); // Mostra um alerta com o erro
       }
     }
