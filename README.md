@@ -57,6 +57,7 @@ Este projeto é uma réplica simples do ChatGPT, utilizando **Angular 17** e a *
 
 - **Angular 17**
 - **TypeScript**
+- **Express Js**
 - **SCSS**
 - **OpenAI API**
 

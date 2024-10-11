@@ -2,17 +2,17 @@ import { Component, ElementRef } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root', // Define o seletor do componente que será usado no HTML, por exemplo <app-root></app-root>
-  standalone: true, // Indica que o componente é independente, não precisa ser declarado em um módulo
-  imports: [RouterOutlet], // Importa o módulo RouterOutlet para navegação entre rotas
-  templateUrl: './app.component.html', // Arquivo HTML do componente
-  styleUrl: './app.component.scss' // Arquivo de estilo associado ao componente
+  selector: 'app-root', 
+  standalone: true, 
+  imports: [RouterOutlet], 
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'chatGPT app'; // Título do aplicativo
-  loadinterval: any; // Variável usada para armazenar o intervalo do loader
-  bot = './assets/bot.png'; // Caminho da imagem do bot
-  user = './assets/user.png'; // Caminho da imagem do usuário
+  title = 'chatGPT app';
+  loadinterval: any;
+  bot = './assets/bot.png';
+  user = './assets/user.png';
 
   form: any; // Referência ao formulário HTML
   container: any; // Referência ao contêiner onde as mensagens serão exibidas
