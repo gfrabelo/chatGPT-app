@@ -59,7 +59,7 @@ export class AppComponent {
       } else {
         clearInterval(interval); // Quando o texto estiver completo, para o intervalo
       }
-    }, 20); // Exibe uma letra a cada 20ms
+    }, 20); 
   }
 
   // Gera um ID único baseado no timestamp atual e um número aleatório
